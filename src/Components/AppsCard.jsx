@@ -1,10 +1,12 @@
 import React from 'react';
 import ratingI from '../assets/icon-ratings.png'
+import { Link } from 'react-router';
 
 const AppsCard = ({app}) => {
     // console.log(app)
     const{image,title,downloads,ratingAvg}=app
     return (
+      <Link to={'details'}>
         <div className="card bg-white p-2  shadow-sm w-80  mx-auto">
   <figure>
     <img className=''
@@ -26,7 +28,8 @@ const AppsCard = ({app}) => {
        </div> 
       
     </div>
-</div>
+  </div>
+  </Link>
     );
 };
 
