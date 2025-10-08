@@ -1,0 +1,506 @@
+[
+  {
+    "image": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/facebook.svg",
+    "title": "Facebook",
+    "companyName": "Meta",
+    "id": 1,
+    "description": "Connect with friends, family, and communities on the world's largest social network. Share updates, photos, and videos, join groups to explore your interests, and stay in touch with events and marketplace deals. Enjoy seamless communication and personalized content tailored to your preferences.",
+    "size": 50,
+    "reviews": 1500000,
+    "ratingAvg": 4.2,
+    "downloads": "5000M",
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 600000 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/x.svg",
+    "title": "X",
+    "companyName": "X Corp",
+    "id": 2,
+    "description": "Stay updated with real-time news, trends, and conversations from around the globe. Share your thoughts through posts, engage with influencers, and follow topics that matter to you. Discover breaking news and connect with communities in a dynamic, fast-paced environment.",
+    "size": 45,
+    "reviews": 1200000,
+    "ratingAvg": 4.1,
+    "downloads": "1000M",
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 450000 },
+      { "name": "5 star", "count": 500000 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/tiktok.svg",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "id": 3,
+    "description": "Create, watch, and share short, entertaining videos with a global community. Explore trending challenges, creative effects, and music-driven content tailored to your interests. Unleash your creativity with easy-to-use editing tools and join a vibrant platform of creators.",
+    "size": 60,
+    "reviews": 2000000,
+    "ratingAvg": 4.4,
+    "downloads": "2000M",
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 120000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 800000 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/instagram.svg",
+    "title": "Instagram",
+    "companyName": "Meta",
+    "id": 4,
+    "description": "Share your life through photos, stories, and reels with a global audience. Connect with friends, discover new creators, and explore trending content in a visually engaging platform. Use filters, stickers, and live features to express yourself creatively.",
+    "size": 55,
+    "reviews": 1800000,
+    "ratingAvg": 4.3,
+    "downloads": "4000M",
+    "ratings": [
+      { "name": "1 star", "count": 70000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 650000 },
+      { "name": "5 star", "count": 750000 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/whatsapp.svg",
+    "title": "WhatsApp",
+    "companyName": "Meta",
+    "id": 5,
+    "description": "Enjoy secure, end-to-end encrypted messaging and video calls with friends and family. Share text, photos, videos, and documents effortlessly, and create group chats for seamless communication. Stay connected across devices with reliable, user-friendly features.",
+    "size": 40,
+    "reviews": 2500000,
+    "ratingAvg": 4.5,
+    "downloads": "5000M",
+    "ratings": [
+      { "name": "1 star", "count": 90000 },
+      { "name": "2 star", "count": 130000 },
+      { "name": "3 star", "count": 350000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 930000 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/youtube.svg",
+    "title": "YouTube",
+    "companyName": "Google",
+    "id": 6,
+    "description": "Watch, upload, and share videos, from entertainment to tutorials, on a global platform. Discover personalized recommendations, subscribe to your favorite channels, and enjoy offline and ad-free options. Create your own content and engage with a massive community of viewers.",
+    "size": 70,
+    "reviews": 3000000,
+    "ratingAvg": 4.6,
+    "downloads": "10000M",
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 1550000 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/snapchat.svg",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 7,
+    "description": "Capture and share moments with friends through photos, videos, and stories. Use fun filters, lenses, and Bitmoji to personalize your snaps and connect in real-time. Explore trending content and stay engaged with a playful, creative community.",
+    "size": 50,
+    "reviews": 1400000,
+    "ratingAvg": 4.2,
+    "downloads": "2000M",
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 550000 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/telegram.svg",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 8,
+    "description": "Experience fast, secure messaging with end-to-end encryption and cloud-based storage. Create large group chats, share files up to 2GB, and use bots for automation. Enjoy a privacy-focused platform with seamless syncing across all your devices.",
+    "size": 35,
+    "reviews": 1100000,
+    "ratingAvg": 4.4,
+    "downloads": "1000M",
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 490000 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/spotify.svg",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 9,
+    "description": "Stream millions of songs, playlists, and podcasts tailored to your taste. Discover new music, create custom playlists, and enjoy offline listening with premium features. Connect with artists and share your favorite tracks with friends effortlessly.",
+    "size": 60,
+    "reviews": 2000000,
+    "ratingAvg": 4.5,
+    "downloads": "1000M",
+    "ratings": [
+      { "name": "1 star", "count": 70000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 650000 },
+      { "name": "5 star", "count": 925000 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/googlemaps.svg",
+    "title": "Google Maps",
+    "companyName": "Google",
+    "id": 10,
+    "description": "Navigate with real-time maps, traffic updates, and turn-by-turn directions. Explore local businesses, find routes for driving, walking, or transit, and save favorite places. Enjoy accurate location services and Street View for immersive exploration.",
+    "size": 75,
+    "reviews": 2500000,
+    "ratingAvg": 4.6,
+    "downloads": "5000M",
+    "ratings": [
+      { "name": "1 star", "count": 90000 },
+      { "name": "2 star", "count": 130000 },
+      { "name": "3 star", "count": 350000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 1120000 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/messenger.svg",
+    "title": "Messenger",
+    "companyName": "Meta",
+    "id": 11,
+    "description": "Chat with friends and family on Facebook with instant messaging and video calls. Share photos, stickers, and GIFs, and create group chats for easy communication. Enjoy fun features like games and reactions to stay connected.",
+    "size": 45,
+    "reviews": 1700000,
+    "ratingAvg": 4.3,
+    "downloads": "5000M",
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 760000 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/pinterest.svg",
+    "title": "Pinterest",
+    "companyName": "Pinterest Inc.",
+    "id": 12,
+    "description": "Discover inspiration for recipes, home decor, fashion, and more with curated pins. Save ideas to boards, explore trending content, and share your creative projects. Connect with a community passionate about new ideas and hobbies.",
+    "size": 50,
+    "reviews": 900000,
+    "ratingAvg": 4.4,
+    "downloads": "1000M",
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 350000 },
+      { "name": "5 star", "count": 410000 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/linkedin.svg",
+    "title": "LinkedIn",
+    "companyName": "Microsoft",
+    "id": 13,
+    "description": "Build your professional network, find job opportunities, and showcase your skills. Connect with colleagues, follow industry leaders, and stay updated with career insights. Use tools to enhance your resume and grow your professional presence.",
+    "size": 55,
+    "reviews": 800000,
+    "ratingAvg": 4.2,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 300000 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/discord.svg",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "id": 14,
+    "description": "Join communities for gaming, education, or hobbies with voice, video, and text chat. Create servers, share content, and connect with friends in real-time. Enjoy customizable features and bots for a tailored social experience.",
+    "size": 60,
+    "reviews": 1100000,
+    "ratingAvg": 4.5,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 450000 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/amazon.svg",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon",
+    "id": 15,
+    "description": "Shop millions of products, from electronics to groceries, with fast delivery options. Track orders, compare prices, and access exclusive deals with ease. Enjoy a seamless shopping experience with personalized recommendations and secure payments.",
+    "size": 40,
+    "reviews": 1300000,
+    "ratingAvg": 4.3,
+    "downloads": "1000M",
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 450000 },
+      { "name": "5 star", "count": 520000 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/netflix.svg",
+    "title": "Netflix",
+    "companyName": "Netflix Inc.",
+    "id": 16,
+    "description": "Stream a vast library of movies, TV shows, and exclusive originals on demand. Enjoy ad-free viewing, offline downloads, and personalized recommendations. Discover new content and binge-watch your favorite series anytime, anywhere.",
+    "size": 65,
+    "reviews": 2000000,
+    "ratingAvg": 4.4,
+    "downloads": "1000M",
+    "ratings": [
+      { "name": "1 star", "count": 70000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 650000 },
+      { "name": "5 star", "count": 925000 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/google.svg",
+    "title": "Google",
+    "companyName": "Google",
+    "id": 17,
+    "description": "Search the web quickly with Google's powerful search engine, offering instant results. Access news, images, videos, and more with a user-friendly interface. Explore advanced features like voice search and personalized results for efficiency.",
+    "size": 30,
+    "reviews": 1500000,
+    "ratingAvg": 4.5,
+    "downloads": "5000M",
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 450000 },
+      { "name": "5 star", "count": 720000 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/gmail.svg",
+    "title": "Gmail",
+    "companyName": "Google",
+    "id": 18,
+    "description": "Manage your emails with Google's fast, secure, and intuitive email service. Organize your inbox with labels, filters, and priority sorting, and access emails offline. Enjoy seamless integration with Google Drive and Calendar for productivity.",
+    "size": 35,
+    "reviews": 1200000,
+    "ratingAvg": 4.3,
+    "downloads": "5000M",
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 590000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/7t32Z8jN/51t-OZi-EHNLL.png",
+    "title": "Outlook",
+    "companyName": "Microsoft",
+    "id": 19,
+    "description": "Stay organized with Microsoft Outlook’s email and calendar management tools. Schedule meetings, sync tasks, and access your emails across devices with ease. Benefit from a clean interface and integration with Microsoft Office apps.",
+    "size": 40,
+    "reviews": 900000,
+    "ratingAvg": 4.2,
+    "downloads": "1000M",
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 400000 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/uber.svg",
+    "title": "Uber",
+    "companyName": "Uber Technologies",
+    "id": 20,
+    "description": "Book rides, track drivers, and explore transportation options in real-time. Choose from cars, bikes, or scooters, and enjoy safe, reliable travel with fare estimates. Connect with drivers and plan trips effortlessly with a user-friendly app.",
+    "size": 50,
+    "reviews": 1100000,
+    "ratingAvg": 4.3,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 450000 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/paypal.svg",
+    "title": "PayPal",
+    "companyName": "PayPal Holdings",
+    "id": 21,
+    "description": "Send and receive money securely with PayPal’s trusted payment platform. Shop online, transfer funds to friends, or pay for services with ease and security. Enjoy buyer protection and fast transactions across the globe.",
+    "size": 45,
+    "reviews": 800000,
+    "ratingAvg": 4.4,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 350000 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/zoom.svg",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "id": 22,
+    "description": "Host and join high-quality video meetings for work, school, or social events. Share screens, record sessions, and use virtual backgrounds to enhance your calls. Enjoy reliable, user-friendly communication for teams and individuals alike.",
+    "size": 55,
+    "reviews": 1200000,
+    "ratingAvg": 4.3,
+    "downloads": "1000M",
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 580000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/BH5BCjdc/unnamed.png",
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft",
+    "id": 23,
+    "description": "Collaborate seamlessly with team chat, video calls, and file sharing. Integrate with Microsoft Office apps to manage projects and meetings efficiently. Stay productive with tools designed for remote and hybrid work environments.",
+    "size": 60,
+    "reviews": 900000,
+    "ratingAvg": 4.2,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 400000 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/reddit.svg",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "id": 24,
+    "description": "Join thousands of communities to discuss topics, share memes, and ask questions. Explore subreddits tailored to your interests, from gaming to science. Engage with users through posts, comments, and upvotes in a vibrant social platform.",
+    "size": 50,
+    "reviews": 1000000,
+    "ratingAvg": 4.4,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 350000 },
+      { "name": "5 star", "count": 450000 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/tinder.svg",
+    "title": "Tinder",
+    "companyName": "Match Group",
+    "id": 25,
+    "description": "Meet new people, find dates, and make connections with a swipe-based interface. Explore profiles, chat with matches, and discover potential relationships. Enjoy a fun, intuitive app designed for modern dating and social interaction.",
+    "size": 45,
+    "reviews": 800000,
+    "ratingAvg": 4.1,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 350000 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/evernote.svg",
+    "title": "Evernote",
+    "companyName": "Evernote Corporation",
+    "id": 26,
+    "description": "Capture ideas, take notes, and organize tasks with powerful note-taking tools. Sync across devices, clip web articles, and collaborate with teams effortlessly. Stay organized with searchable notes and customizable templates for productivity.",
+    "size": 40,
+    "reviews": 600000,
+    "ratingAvg": 4.2,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 270000 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/dropbox.svg",
+    "title": "Dropbox",
+    "companyName": "Dropbox Inc.",
+    "id": 27,
+    "description": "Store, share, and access files securely from any device with cloud storage. Collaborate with teams, sync documents, and back up important data effortlessly. Enjoy a reliable platform for managing your digital files with ease.",
+    "size": 50,
+    "reviews": 700000,
+    "ratingAvg": 4.3,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 250000 },
+      { "name": "5 star", "count": 280000 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/trello.svg",
+    "title": "Trello",
+    "companyName": "Atlassian",
+    "id": 28,
+    "description": "Organize projects with intuitive boards, lists, and cards for team collaboration. Track tasks, set deadlines, and integrate with tools like Slack and Google Drive. Streamline workflows with a flexible, visual project management system.",
+    "size": 35,
+    "reviews": 500000,
+    "ratingAvg": 4.4,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 70000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 250000 }
+    ]
+  }
+]

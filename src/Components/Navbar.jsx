@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../assets/logo.png'
-import { Link } from 'react-router';
+import { Link, Navigate } from 'react-router';
 
 const Navbar = () => {
     return (
@@ -18,10 +18,10 @@ const Navbar = () => {
         <Link to={'installation'}>Installation</Link>
       </ul>
     </div>
-      <div className='flex'>
-        <img width={'40px'} src={logo} alt="" />
-        <a className="font-semibold mt-1.5 text-xl">HERO.IO</a>
-      </div>
+       <Link to={'/'}><div className='flex cursor-pointer'>
+     <img width={'40px'} src={logo} alt="" /> 
+        <p className="font-semibold mt-1.5 text-xl">HERO.IO</p> 
+      </div> </Link> 
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 space-x-5 font-semibold">
