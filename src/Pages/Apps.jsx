@@ -5,13 +5,14 @@ import AllCards from '../Components/AllCards';
 const Apps = () => {
     
     
-    const {apps} =useApps()
+    const {apps,loading} =useApps()
     const [search,setSearch]=useState('')
-    console.log(search)
+    // console.log(search)
 
     const joined= search.trim().toLocaleLowerCase()
 
     const filterSearched = joined? apps.filter(app => app.title.toLocaleLowerCase().includes(joined)):apps
+
     
     
 //   console.log(apps)
@@ -22,6 +23,7 @@ const Apps = () => {
                 <h1 className='font-bold text-3xl'>Our All Applications</h1>
                 
                 <p>Explore All Apps on the Market developed by us. We code for Millions</p>
+                
             </div>
             <div className='flex justify-between p-4'>
                 <h1 className='text-2xl font-bold'>({filterSearched.length})Apps Found</h1>
@@ -33,11 +35,11 @@ const Apps = () => {
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
                 
+                {  
                 
-                
-                {
                 filterSearched.map(app=> <AllCards app={app}></AllCards>)
             }
+            
             </div>
             
             </div>

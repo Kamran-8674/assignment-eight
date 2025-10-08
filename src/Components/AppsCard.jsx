@@ -4,9 +4,9 @@ import { Link } from 'react-router';
 
 const AppsCard = ({app}) => {
     // console.log(app)
-    const{image,title,downloads,ratingAvg}=app
+    const{image,title,downloads,ratingAvg,id}=app
     return (
-      <Link to={'details'}>
+      <Link to={`details/${id}`}>
         <div className="card bg-white p-2  shadow-sm w-80  mx-auto">
   <figure>
     <img className=''

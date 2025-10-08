@@ -3,8 +3,10 @@ import React from 'react';
 const AllCards = ({app}) => {
     const {image,title,downloads,ratingAvg}=app
     return (
+      
      
         <div className="card bg-white p-2  shadow-sm w-80  mx-auto">
+          
           <figure>
             <img className=''
               src={image}
