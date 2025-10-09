@@ -12,6 +12,7 @@ const Apps = () => {
     const joined= search.trim().toLocaleLowerCase()
 
     const filterSearched = joined? apps.filter(app => app.title.toLocaleLowerCase().includes(joined)):apps
+    loading && <p>gygy</p>
 
     
     

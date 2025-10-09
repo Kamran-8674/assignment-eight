@@ -1,13 +1,18 @@
-import React, { useState } from 'react';
+import React, {   useContext, useState } from 'react';
 import donwloadI from '../assets/icon-downloads.png'
 import ratingI from '../assets/icon-ratings.png'
 import reviweI from '../assets/icon-review.png'
 import { useParams } from 'react-router';
 import useApps from '../hooks/useApps';
 import { Bar, ComposedChart, XAxis, YAxis } from 'recharts';
+import { AppsContext } from '../utility/AppContext';
 
 const AppDetails = () => {
   const [installed, setInstalled]= useState(false)
+  
+  const {handleButton,app}=useContext(AppsContext)
+  console.log(app)
+  
   
 
     const {id} = useParams()
@@ -33,6 +38,7 @@ const AppDetails = () => {
             <img src={donwloadI} alt="" />
             <p>downlaod</p>
             <h1 className='font-bold text-3xl'>{downloads}</h1>
+            
            
         </div>
         <div className='mt-9 flex flex-col items-center'>
@@ -50,7 +56,9 @@ const AppDetails = () => {
         
     </div>
     <div className="card-actions justify-end">
-      <button onClick={()=>setInstalled(true)} className="btn bg-[#00D390] text-white btn-wide mt-5">{installed? 'Disabled' : 'Install'} {size} MB</button>
+      <button onClick={()=>{
+        handleButton(finded)
+        setInstalled(true)}} className="btn bg-[#00D390] text-white btn-wide mt-5">{installed? 'Disabled' : 'Install'} {size} MB</button>
     </div>
    </div>
   </div>

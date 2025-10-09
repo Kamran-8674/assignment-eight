@@ -6,7 +6,11 @@ import Inastallation from "../Pages/Inastallation";
 import AppDetails from "../Pages/AppDetails";
 import ErorElement from "../Pages/ErorElement";
 
+
+ 
+
 export const router = createBrowserRouter([
+ 
   {
     path: "/",
     Component:Root,
@@ -22,13 +26,13 @@ export const router = createBrowserRouter([
     },
     {
       path:'installation',
-      Component:Inastallation
+      element:<Inastallation></Inastallation>
     },
     {
       path:'details/:id',
-      Component:AppDetails
+      element:<AppDetails></AppDetails>
     },
-    {}
+   
 
     ]
   },
