@@ -5,8 +5,15 @@ import { AppsContext } from './AppContext';
 
 const AppsProvider = ({children}) => {
     const [app,setApp]= useState([])
+
     const handleButton= (newa) =>{
-    return setApp ([...app,newa])
+       const isexist= app.find(n=> n.id === newa.id)
+       if(isexist) return alert('this app is already installed')
+
+       
+     return  setApp ([...app,newa])
+     
+    
 
   }
     

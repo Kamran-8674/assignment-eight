@@ -4,13 +4,22 @@ import ratingI from '../assets/icon-ratings.png'
 import reviweI from '../assets/icon-review.png'
 import { useParams } from 'react-router';
 import useApps from '../hooks/useApps';
-import { Bar, ComposedChart, XAxis, YAxis } from 'recharts';
+
 import { AppsContext } from '../utility/AppContext';
 
+
+
 const AppDetails = () => {
+  
+
+  
   const [installed, setInstalled]= useState(false)
   
   const {handleButton,app}=useContext(AppsContext)
+  
+
+  
+
   console.log(app)
   
   
@@ -18,9 +27,33 @@ const AppDetails = () => {
     const {id} = useParams()
     const {apps,loading}=useApps()
     const finded = apps.find(a => a.id=== Number(id))
+    console.log(finded)
+    
+    
     if(loading) return <p>loading</p>
+    
 
     const {image,downloads,companyName, reviews,title,size,description,ratingAvg}=finded 
+
+    const handleAddToLs=()=>{
+      const existedList = JSON.parse(localStorage.getItem('installated'))
+      let updatedList = []
+      if(existedList){
+         const isDuplicate =existedList.find(e=> e.id===finded.id)
+         if(isDuplicate) return alert ('app already installed')
+          updatedList= [...existedList,finded]
+
+      }
+      else{
+        updatedList.push(finded)
+
+      }
+     
+
+
+
+      localStorage.setItem('installated',JSON.stringify(updatedList))
+    }
     
     return (
         <div className='p-8 bg-amber-200'>
@@ -58,21 +91,21 @@ const AppDetails = () => {
     <div className="card-actions justify-end">
       <button onClick={()=>{
         handleButton(finded)
-        setInstalled(true)}} className="btn bg-[#00D390] text-white btn-wide mt-5">{installed? 'Disabled' : 'Install'} {size} MB</button>
+        setInstalled(true)
+        handleAddToLs()
+      
+      }
+        } className="btn bg-[#00D390] text-white btn-wide mt-5">{installed? 'Disabled' : 'Install'} {size} MB</button>
     </div>
    </div>
   </div>
 
+  
+  
 
-  <ComposedChart width={500} height={450} data={apps}>
-    <XAxis dataKey='name' ></XAxis>
-    <YAxis dataKey='name'></YAxis>
-    <Bar dataKey='uv' ></Bar>
-    <Bar dataKey={apps} fill='white' stroke="#ff7300"></Bar>
+{/* <Rechart></Rechart> */}
 
-
-  </ComposedChart>
-
+  
 
   <div><p>{description}</p></div>
 </div>

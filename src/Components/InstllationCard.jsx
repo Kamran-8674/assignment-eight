@@ -16,7 +16,7 @@ const InstllationCard = ({a}) => {
                     </div>
 
                 </div>
-                <button class="btn bg-[#00D390]  btn-active btn-secondary">Secondary</button>
+                <button className="btn bg-[#00D390]  btn-active btn-secondary">Secondary</button>
 
             </div>
     );
