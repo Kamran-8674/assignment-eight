@@ -35,7 +35,7 @@ const Apps = () => {
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
                  
-                {filterSearched.length<0?<NoData></NoData> : filterSearched.map(app=> <AllCards app={app}></AllCards>) }
+                {filterSearched.length<0?<NoData></NoData> : filterSearched.map(app=> <AllCards app={app} key={app.id}></AllCards>) }
                 {loading?<p className='flex justify-center items-center'><span className="loading loading-spinner loading-xl"></span></p>:''}
                 
                 
