@@ -1,7 +1,9 @@
+import { Link } from 'react-router';
 import AppsCard from '../Components/AppsCard';
 import Banner from '../Components/Banner';
 import States from '../Components/States';
 import useApps from '../hooks/useApps';
+import { Key } from 'lucide';
 
 
 const Home = () => {
@@ -13,7 +15,8 @@ const Home = () => {
     return (
         
         <div>
-            {loading?<p>loooooosfdfhsfhsafhsafhf</p>:''}
+            {loading?<p className='flex justify-center items-center'><span className="loading loading-spinner loading-xl"></span>
+</p>:''}
             <Banner></Banner>
        
             <States></States>
@@ -25,9 +28,9 @@ const Home = () => {
             </div>
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
-            {trndingApps.map(app=> <AppsCard app={app}></AppsCard>)}
+            {trndingApps.map(app=>  <AppsCard app={app} key={app.id}></AppsCard>)}
             </div>
-             <button className=" flex justify-center items-center mx-auto my-5 btn btn-active btn-secondary">Show All</button>
+            <Link to={'apps'}> <button className=" flex justify-center items-center mx-auto my-5 btn btn-active btn-secondary">Show All</button></Link>
 
   
 

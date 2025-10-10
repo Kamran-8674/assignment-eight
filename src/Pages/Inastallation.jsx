@@ -1,5 +1,4 @@
-import { useContext, useEffect, useState } from 'react';
-import { AppsContext } from '../utility/AppContext';
+import {  useEffect, useState } from 'react';
 import InstllationCard from '../Components/InstllationCard';
 
 const Inastallation = () => {
@@ -25,10 +24,16 @@ const Inastallation = () => {
             return installation
         }
     }
+    const removeHandle =(id)=>{
+ const existedList = JSON.parse(localStorage.getItem('installated'))
+ let updatedList = existedList.filter(a=> a.id!==id)
+    setInstallation(updatedList)
+    localStorage.setItem('installated',JSON.stringify(updatedList))
+
+    }
    
     
-    const {app} =useContext(AppsContext)
-    console.log(app)
+   
    
    
     
@@ -38,18 +43,18 @@ const Inastallation = () => {
             <p>Explore All Trending Apps on the Market developed by us</p>
             </div>
             <div className='flex justify-between mt-10'>
-                <h1 className='font-bold text-xl'></h1>
+                <h1 className='font-bold text-xl'>{sortedItems().length} Apps Found</h1>
              <select value={sortOrder} onChange={e => setSortOrder( e.target.value)} className="select select-neutral">
-               <option value='none'>Select BY Size</option>
-               <option value='ascn-desn'>Large to Small</option>
-                <option value='desn-ascn'>Small to Large</option>
+               <option value='none'>Select By Size</option>
+               <option value='ascn-desn'>High-Low</option>
+                <option value='desn-ascn'>Low-High</option>
  
               </select>
             </div>
 
 
            {/* {app.map(a=> <InstllationCard a={a}></InstllationCard>)} */}
-           {sortedItems().map(a=> <InstllationCard a={a}></InstllationCard>)}
+           {sortedItems().map(a=> <InstllationCard a={a} handleRemove={removeHandle}></InstllationCard>)}
            
         </div>
     );

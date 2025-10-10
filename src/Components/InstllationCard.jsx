@@ -1,6 +1,6 @@
 import React from 'react';
 
-const InstllationCard = ({a}) => {
+const InstllationCard = ({a,handleRemove}) => {
     console.log(a)
     return (
        <div className='flex justify-between items-center bg-white p-3 rounded-md mt-2'>
@@ -16,7 +16,10 @@ const InstllationCard = ({a}) => {
                     </div>
 
                 </div>
-                <button className="btn bg-[#00D390]  btn-active btn-secondary">Secondary</button>
+                <button  onClick={
+                    ()=>handleRemove(a.id)
+                    
+                    } className="btn bg-[#00D390]  btn-active btn-secondary" >Uninstall</button>
 
             </div>
     );

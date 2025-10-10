@@ -2,7 +2,7 @@ import React from 'react';
 
 const States = () => {
     return (
-        <div className='p-16 text-white bg-blue-400'>
+        <div className='p-16 text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]'>
              <h1 className='font-bold text-3xl text-center '>Trusted by Millions, Built for You</h1>
             <div className='flex  justify-evenly mt-6'> 
                 <div className='text-center '>

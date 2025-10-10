@@ -1,10 +1,11 @@
 import React from 'react';
-
+import ratingI from '../assets/icon-ratings.png'
+import { Link } from 'react-router';
 const AllCards = ({app}) => {
-    const {image,title,downloads,ratingAvg}=app
+    const {image,title,downloads,id,ratingAvg}=app
     return (
       
-     
+     <Link to={`/details/${id}`}>
         <div className="card bg-white p-2  shadow-sm w-80  mx-auto">
           
           <figure>
@@ -18,16 +19,17 @@ const AllCards = ({app}) => {
             
           </div>
           <div className="flex justify-between px-2">
-               <div>
-                  <p> {downloads}</p>
+               <div className='px-2.5 rounded-xl text-[#00D390] bg-[#F1F5E8]'>
+                  <p><i className="fa-solid fa-download"></i>  {downloads}</p>
                </div> 
                <div className='flex items-center space-x-1 bg-[#FFF0E1] px-2.5 rounded-xl'>
-                 {/* <img className='w-3 h-5' src='' alt="" /> */}
+                 <img className='w-3 h-5' src={ratingI} alt="" />
                 <p> {ratingAvg}</p>
                </div> 
               
             </div>
              </div>
+             </Link>
     );
 };
 

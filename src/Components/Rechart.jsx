@@ -10,7 +10,9 @@ import {
   Legend,
   ResponsiveContainer,
   BarChart,
-  Bar
+  Bar,
+  ComposedChart,
+  Area
 } from "recharts";
 import useApps from '../hooks/useApps';
 
@@ -22,10 +24,27 @@ const Rechart = () => {
 
     
     return (
-        <div className="w-full h-96 bg-white rounded-md p-4">
-      <h1 className="text-xl font-bold mb-3">User Growth Chart</h1>
-     
-    </div>
+      <ResponsiveContainer width="100%" height="100%">
+               <ComposedChart
+                 
+                 width={500}
+                 height={400}
+                 data={apps}
+                
+               >
+                 <CartesianGrid stroke="#f5f5f5" />
+                 <XAxis type="downloads
+" />
+                 <YAxis dataKey="downloads
+" type="category" scale="band" />
+                 <Tooltip />
+                 <Legend />
+                 <Area dataKey="amt" fill="#8884d8" stroke="#8884d8" />
+                 <Bar dataKey="downloads
+" barSize={20} fill="#413ea0" />
+                 <Line dataKey="downloads" stroke="#ff7300" />
+               </ComposedChart>
+             </ResponsiveContainer>
     );
 };
 

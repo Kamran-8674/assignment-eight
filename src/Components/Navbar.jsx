@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../assets/logo.png'
 import { Link, Navigate } from 'react-router';
+// import { <Github></Github> } from 'lucide';
 
 const Navbar = () => {
     return (
@@ -31,7 +32,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <Link className="btn bg-blue-600 text-white" to={'https://github.com/Kamran-8674/my-first-github-repo'}>Contribute</Link>
+   <Link className="btn bg-blue-600 text-white" to={'https://github.com/Kamran-8674/my-first-github-repo'}><i className="fa-brands fa-github"></i> Contribute</Link>
   </div>
 </div>
     );

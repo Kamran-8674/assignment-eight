@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import useApps from '../hooks/useApps';
 import AllCards from '../Components/AllCards';
+import NoData from '../Components/NoData';
 
 const Apps = () => {
     
@@ -12,13 +13,11 @@ const Apps = () => {
     const joined= search.trim().toLocaleLowerCase()
 
     const filterSearched = joined? apps.filter(app => app.title.toLocaleLowerCase().includes(joined)):apps
-    loading && <p>gygy</p>
-
     
-    
-//   console.log(apps)
+// /   console.log(apps)
     return (
         <div>
+            
             <div className='p-6 bg-[#FFF0E1] '>
             <div className='text-center my-3'>
                 <h1 className='font-bold text-3xl'>Our All Applications</h1>
@@ -35,11 +34,11 @@ const Apps = () => {
             </div>
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
+                 
+                {filterSearched.length<0?<NoData></NoData> : filterSearched.map(app=> <AllCards app={app}></AllCards>) }
+                {loading?<p className='flex justify-center items-center'><span className="loading loading-spinner loading-xl"></span></p>:''}
                 
-                {  
                 
-                filterSearched.map(app=> <AllCards app={app}></AllCards>)
-            }
             
             </div>
             
